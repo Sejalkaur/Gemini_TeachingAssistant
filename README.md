@@ -23,26 +23,25 @@ Make sure you have the following installed:
 - **API Key** from **Gemini AI** (or OpenAI if using GPT)  
 
 ### 2️⃣ Clone the Repository  
-```bash
+```
 git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
-
-
-### 3️⃣ Install Dependencies
-```bash
+```
+```
 npm install
 
+```
 ### 4️⃣ Set Up Environment Variables
 Create a .env file in the root directory and add:
 
-```.env
+```
 REACT_APP_GEMINI_API_KEY=your_api_key_here
 (If using OpenAI GPT, replace with the corresponding API key.)
 
-### 5️⃣ Start the Development Server
-```bash
+```
+```
 npm start
-
+```
 This will launch the application at http://localhost:3000/.
 
 📌 Application Architecture
